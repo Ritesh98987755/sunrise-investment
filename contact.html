@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Investment | Wealth Management in Gujarat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .hero-image {
+            background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+    
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+<nav class="bg-white shadow-md sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center">
+      <div class="bg-blue-600 text-white p-2 rounded-lg mr-2">
+        <i class="fas fa-sun text-xl"></i>
+      </div>
+      <span class="text-xl font-bold text-blue-800">Sunrise Investment</span>
+    </div>
+    <div id="menu" class="hidden md:flex space-x-8">
+      <a href="./home.html" class="hover:text-blue-600 font-medium">Home</a>
+      <a href="./abou-tus.html" class="hover:text-blue-600 font-medium">About Us</a>
+      <a href="./service.html" class="hover:text-blue-600 font-medium">Services</a>
+      <a href="#" class="text-blue-600 font-medium">Contact</a>
+      
+    </div>
+    <button id="menu-button" class="md:hidden text-gray-600">
+      <i class="fas fa-bars text-2xl"></i>  
+    </button>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('menu-button').addEventListener('click', function() {
+    document.getElementById('menu').classList.toggle('hidden');
+  });
+</script>
+
+    <section class="py-20 bg-gray-50" id="contact">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Contact <span class="text-orange-500">Us</span></h2>
+                    <p class="text-gray-600 mb-8">Have questions about our investment opportunities? Our team is here to help you make informed decisions about your financial future.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-map-marker-alt text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Our Headquarters</h4>
+                                <p class="text-gray-600">200 Sunrise Ave, Financial District, New York, NY 10005</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-phone-alt text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Call Us</h4>
+                                <p class="text-gray-600">+1 (800) 555-9876</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-envelope text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Email Us</h4>
+                                <p class="text-gray-600">info@sunriseinvestment.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 mb-2">Your Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                            </div>
+                            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-10000000000000000000000000000">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 text-white p-2 rounded-lg mr-2">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <span class="text-xl font-bold">Sunrise Investment</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Your trusted financial partner in Gujarat since 2010.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Equity Trading</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Mutual Funds</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Global Investments</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Portfolio Management</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Financial Planning</a></li>
+                    </ul>
+                </div>
+                
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>1332, 13th Floor, RK World Tower, Near Sheetal Park Circle, 150 Ft. Ring Road, Rajkot – 360006, Gujarat, INDIA</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3"></i>
+                            <span>+91 80974 03309</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <span>ssunriseinvestment@gmail.com</span>
+                        </li>
+                        <!-- <li class="flex items-start">
+                            <i class="fas fa-clock mt-1 mr-3"></i>
+                            <span>Mon-Sat: 9:30 AM - 6:30 PM</span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Sunrise Investment. All rights reserved. | <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a></p>
+                <p class="mt-2 text-sm">SEBI Registration No.: INH000000123 | AMFI ARN: 12345</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle functionality
+        document.querySelector('button.md\\:hidden').addEventListener('click', function() {
+            const nav = document.querySelector('.hidden.md\\:flex');
+            if (nav.style.display === 'flex') {
+                nav.style.display = 'none';
+            } else {
+                nav.style.display = 'flex';
+                nav.classList.add('flex-col', 'absolute', 'top-16', 'right-4', 'bg-white', 'p-4', 'shadow-lg', 'rounded-lg', 'space-y-4');
+            }
+        });
+    </script>
+</body>
+</html>

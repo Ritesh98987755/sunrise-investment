@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Investment | Wealth Management in Gujarat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .hero-image {
+            background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+    </style>
+    
+</head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Navigation -->
+<nav class="bg-white shadow-md sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div class="flex items-center">
+      <div class="bg-blue-600 text-white p-2 rounded-lg mr-2">
+        <i class="fas fa-sun text-xl"></i>
+      </div>
+      <span class="text-xl font-bold text-blue-800">Sunrise Investment</span>
+    </div>
+    <div id="menu" class="hidden md:flex space-x-8">
+      <a href="./home.html" class="text-blue-600 font-medium">Home</a>
+      <a href="./abou-tus.html" class="hover:text-blue-600 font-medium">About Us</a>
+      <a href="./service.html" class="hover:text-blue-600 font-medium">Services</a>
+      <a href="./contact.html" class="hover:text-blue-600 font-medium">Contact</a>
+      
+    </div>
+    <button id="menu-button" class="md:hidden text-gray-600">
+      <i class="fas fa-bars text-2xl"></i>  
+    </button>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('menu-button').addEventListener('click', function() {
+    document.getElementById('menu').classList.toggle('hidden');
+  });
+</script>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-image min-h-screen flex items-center">
+        <div class="container mx-auto px-4 py-20">
+            <div class="max-w-2xl bg-white bg-opacity-90 p-8 rounded-lg shadow-xl">
+                <h1 class="text-4xl md:text-5xl font-bold text-blue-800 mb-4">Smart Investments for a Brighter Future</h1>
+                <p class="text-xl text-gray-700 mb-8">Trusted financial guidance to help Gujarati families and businesses build lasting wealth through strategic planning.</p>
+                
+                <div class="mb-8">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                        <span>Personalized investment strategies tailored to your goals</span>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                        <span>Transparent pricing with no hidden fees</span>
+                    </div>
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                        <span>Local expertise with global market access</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                        <span>Dedicated relationship manager for every client</span>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Open Your Account
+                    </button>
+                    <button class="bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-bold py-3 px-6 rounded-lg transition duration-300">
+                        Book Free Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="gradient-bg py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-800 mb-3">Who We Are</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Your trusted partner for financial growth in Gujarat</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row gap-12 items-center">
+                <div class="lg:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                         alt="Team meeting" 
+                         class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+                <div class="lg:w-1/2">
+                    <p class="text-lg mb-4">Founded in Ahmedabad, Sunrise Investment has been helping Gujarati families and businesses navigate financial markets since 2010. We combine local understanding with professional expertise to create customized solutions for our clients.</p>
+                    
+                    <p class="text-lg mb-8">Our team of SEBI-registered advisors brings together decades of experience in equity markets, mutual funds, and wealth management. We believe in building long-term relationships based on trust, transparency, and consistent performance.</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-shield-alt text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold">SEBI Registered</h4>
+                                <p class="text-sm text-gray-600">Advisors & Research Analysts</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold">Local Presence</h4>
+                                <p class="text-sm text-gray-600">1 branches across Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-users text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold">Experienced Team</h4>
+                                <p class="text-sm text-gray-600">50+ years combined experience</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-headset text-blue-600 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-bold">Dedicated Support</h4>
+                                <p class="text-sm text-gray-600">Gujarati & English speaking staff</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-blue-50 border-l-4 border-blue-600 p-4">
+                        <p class="italic text-blue-800">"We measure our success by your financial well-being. Your goals become our roadmap."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-800 mb-3">Our Investment Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive solutions tailored to your financial needs</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Equity Trading -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-line text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">Equity Trading</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Access to NSE, BSE with competitive brokerage</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Advanced trading platforms with real-time data</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Research-backed stock recommendations</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Grow your capital by investing in India's top companies with expert guidance.</p>
+                </div>
+                
+                <!-- Mutual Funds -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-piggy-bank text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">Mutual Funds</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Direct plans with zero commission</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Customized SIP plans from ₹500/month</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Regular portfolio reviews</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Start small and build wealth systematically with professionally managed funds.</p>
+                </div>
+                
+                <!-- Global Investments -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-globe text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">Global Investments</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Invest in US stocks from India</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Access to international ETFs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Diversify beyond Indian markets</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Expand your investment horizon with global opportunities while we handle the complexities.</p>
+                </div>
+                
+                <!-- Derivatives -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-project-diagram text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">Derivatives Trading</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Futures & Options strategies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Hedging solutions for portfolio protection</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Advanced charting tools</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Enhance returns and manage risk with sophisticated trading instruments.</p>
+                </div>
+                
+                <!-- IPOs -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-file-invoice-dollar text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">IPO Investments</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Apply to all IPOs through single platform</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>In-depth IPO analysis reports</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Guidance on allotment probability</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Get early access to India's most promising new companies.</p>
+                </div>
+                
+                <!-- Portfolio Management -->
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover transition duration-300">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-briefcase text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-3">Portfolio Management</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Customized asset allocation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Regular rebalancing based on market conditions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Tax-efficient investment strategies</span>
+                        </li>
+                    </ul>
+                    <p class="text-sm bg-blue-50 p-3 rounded">Let our experts manage your investments while you focus on what matters most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-blue-800 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Begin Your Investment Journey?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Our team is ready to help you create a personalized financial plan that aligns with your goals.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-white text-blue-800 hover:bg-blue-100 font-bold py-3 px-8 rounded-lg transition duration-300">
+                    Open Account Now
+                </button>
+                <button class="border-2 border-white text-white hover:bg-blue-700 font-bold py-3 px-8 rounded-lg transition duration-300">
+                    <i class="fas fa-phone-alt mr-2"></i> Call Us: +91 80974 03309
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-50" id="contact">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Contact <span class="text-orange-500">Us</span></h2>
+                    <p class="text-gray-600 mb-8">Have questions about our investment opportunities? Our team is here to help you make informed decisions about your financial future.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-map-marker-alt text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Our Headquarters</h4>
+                                <p class="text-gray-600">1332, 13th Floor, RK World Tower, Near Sheetal Park Circle, 150 Ft. Ring Road, Rajkot – 360006, Gujarat</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-phone-alt text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Call Us</h4>
+                                <p class="text-gray-600">+91 80974 03309</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="gradient-bg rounded-full p-3 mr-4">
+                                <i class="fas fa-envelope text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-1">Email Us</h4>
+                                <p class="text-gray-600">ssunriseinvestment@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 mb-2">Your Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                            </div>
+                            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-10000000000000000000000000000">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 text-white p-2 rounded-lg mr-2">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <span class="text-xl font-bold">Sunrise Investment</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Your trusted financial partner in Gujarat since 2010.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="./service.html" class="text-gray-400 hover:text-white">Equity Trading</a></li>
+                        <li><a href="./service.html" class="text-gray-400 hover:text-white">Mutual Funds</a></li>
+                        <li><a href="./service.html" class="text-gray-400 hover:text-white">Global Investments</a></li>
+                        <li><a href="./service.html" class="text-gray-400 hover:text-white">Portfolio Management</a></li>
+                        <li><a href="./service.html" class="text-gray-400 hover:text-white">Financial Planning</a></li>
+                    </ul>
+                </div>
+                
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                            <span>1332, 13th Floor, RK World Tower, Near Sheetal Park Circle, 150 Ft. Ring Road, Rajkot – 360006, Gujarat, INDIA</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3"></i>
+                            <span>+91 80974 03309</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3"></i>
+                            <span>ssunriseinvestment@gmail.com</span>
+                        </li>
+                        <!-- <li class="flex items-start">
+                            <i class="fas fa-clock mt-1 mr-3"></i>
+                            <span>Mon-Sat: 9:30 AM - 6:30 PM</span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Sunrise Investment. All rights reserved. | <a href="#" class="hover:text-white">Privacy Policy</a> | <a href="#" class="hover:text-white">Terms of Service</a></p>
+                <p class="mt-2 text-sm">SEBI Registration No.: INH000000123 | AMFI ARN: 12345</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle functionality
+        document.querySelector('button.md\\:hidden').addEventListener('click', function() {
+            const nav = document.querySelector('.hidden.md\\:flex');
+            if (nav.style.display === 'flex') {
+                nav.style.display = 'none';
+            } else {
+                nav.style.display = 'flex';
+                nav.classList.add('flex-col', 'absolute', 'top-16', 'right-4', 'bg-white', 'p-4', 'shadow-lg', 'rounded-lg', 'space-y-4');
+            }
+        });
+    </script>
+</body>
+</html>
